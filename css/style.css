@@ -1,3 +1,81 @@
+html {
+  font-size: 62.5%; /* 10px */
+}
+
 body {
   box-sizing: border-box;
+  font-family: 'Lato';
+  font-weight: 400;
+  text-align: center;
+}
+
+.profile h1 {
+  margin: 0;
+  font-weight: 900;
+  font-size: 6rem;
+  padding: 1rem;
+  color: rgba(0, 0, 0, .6);
+}
+
+.name-box {
+  background-color: rgba(255, 255, 255, .4);
+  border: .5rem solid rgba(0, 0, 0, .6);
+  border-radius: 2rem;
+}
+
+.flex-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 40rem;
+}
+
+.profile {
+  background-image: url(../images/background.jpg);
+  background-size: cover;
+  background-position: center center;
+  height: 100vh;
+}
+
+.social {
+  margin-top: 4rem;
+  display: flex;
+  flex-direction: row;
+}
+
+.social {
+  list-style: none;
+}
+
+.linkedin {
+  display: inline-block;
+  background: url(../images/linkedin-bw.png) norepeat;
+  display: inline-block;
+  overflow: hidden;
+  text-indent: 110%;
+  text-align: left;
+  height: 3rem;
+  width: 3rem;
+}
+
+}
+.twitter {
+
+}
+.facebook {
+
+}
+.email {
+
+}
+
+
+
+
+
+@media screen and (min-width: 415px){
+  .profile h1 {
+
+  }
 }
