@@ -40,6 +40,7 @@ body {
   height: 100vh;
 }
 
+
 .social {
   margin: 0;
   display: flex;
@@ -109,11 +110,9 @@ ul.social_icons {
   background-image: url(../images/email-colored2.png);
 }
 
+@media screen and (min-width: 436px) {
 
-
-@media screen and (min-width: 436px){
-
-  .profile {
+ .profile {
     background-image: url(../images/background5.jpg);
     background-size: cover;
     background-position: center center;
@@ -142,6 +141,43 @@ ul.social_icons {
     position: absolute;
     left: 80vh;
   }
+
+@media screen and (min-width: 800px){
+
+  .profile {
+    background-image: url(../images/background5.jpg);
+    background-size: cover;
+    background-position: center center;
+    height: 100vh;
+  }
+
+  .profile h1 {
+    font-size: 4.5vmax;
+    padding: 1rem;
+  }
+  .social {
+    display: inline-block;
+    position: absolute;
+  }
+
+  ul.social_icons {
+    padding-top: 30vh;
+  }
+
+  section.flex-center {
+    position: relative;
+  }
+
+  .name-box {
+    display: inline-block;
+    position: absolute;
+    left: 80vh;
+    white-space: nowrap
+  }
+
+  .wrapper {
+    max-width: 80%;
+}
 
 
 
