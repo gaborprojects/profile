@@ -91,6 +91,7 @@ ul.social_icons {
 .email:hover {
   transition: all .5s ease;
   animation: roll 1.5s infinite;
+  animation-iteration-count: 1;
   ;
 }
 
