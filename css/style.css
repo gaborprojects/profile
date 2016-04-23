@@ -10,11 +10,11 @@ body {
 }
 
 .profile h1 {
-  margin: 0;
+  color: rgba(0, 0, 0, .6);
   font-weight: 900;
   font-size: 2.5rem;
   padding: .5rem;
-  color: rgba(0, 0, 0, .6);
+  margin: 0;
 }
 
 .name-box {
@@ -25,40 +25,39 @@ body {
 }
 
 .flex-center {
+  align-items: center;
   display: flex;
   display: -webkit-flex;
+  height: 10rem;
   justify-content: center;
   -webkit-justify-content: center;
-  align-items: center;
-  height: 10rem;
   padding-top: 30vh;
 }
 
 .profile {
   background-image: url(../images/background_mobile2.jpg);
-  background-size: cover;
   background-position: center center;
+  background-size: cover;
   height: 100vh;
 }
 
-
 .social {
-  margin: 0;
   display: flex;
   display: -webkit-flex;
-  padding: 0;
   justify-content: center;
   -webkit-justify-content: center;
+  margin: 0;
+  padding: 0;
 }
 
 .social_icons {
   display: flex;
   display: -webkit-flex;
-  list-style: none;
   flex-direction: row;
   -webkit-flex-direction: row;
   justify-content: space-around;
   -webkit-justify-content: space-around;
+  list-style: none;
 }
 
 ul.social_icons {
@@ -70,29 +69,27 @@ ul.social_icons {
 .twitter,
 .facebook,
 .email {
-  top: 80vh;
-  display: block;
-  padding-right: 2rem;
+  background-clip: border-box;
+  background-position: center;
   background-repeat: no-repeat;
   background-size: 4rem;
-  background-position: center;
-  background-clip: border-box;
-  overflow: hidden;
-  text-indent: 110%;
-  text-align: left;
-  width: 4rem;
+  display: block;
   height: 4rem;
-
+  overflow: hidden;
+  padding-right: 2rem;
+  text-align: left;
+  text-indent: 110%;
+  top: 80vh;
+  width: 4rem;
 }
 
 .linkedin:hover,
 .twitter:hover,
 .facebook:hover,
 .email:hover {
-  transition: all .5s ease;
   animation: roll 1.5s infinite;
   animation-iteration-count: 1;
-  ;
+  transition: all .5s ease;
 }
 
 @keyframes roll {
@@ -140,8 +137,8 @@ ul.social_icons {
 
  .profile {
     background-image: url(../images/background_tablet.jpg);
-    background-size: cover;
     background-position: center center;
+    background-size: cover;
     height: 100vh;
   }
 
@@ -172,19 +169,17 @@ ul.social_icons {
   .twitter,
   .facebook,
   .email {
-    width: 6rem;
-    height: 6rem;
     background-size: 6rem;
+    height: 6rem;
+    width: 6rem;
   }
-
-
 
 @media screen and (min-width: 800px){
 
   .profile {
     background-image: url(../images/background5.jpg);
-    background-size: cover;
     background-position: center center;
+    background-size: cover;
     height: 100vh;
   }
 
@@ -207,8 +202,8 @@ ul.social_icons {
 
   .name-box {
     display: inline-block;
-    position: absolute;
     left: 80vh;
+    position: absolute;
     white-space: nowrap
   }
 
@@ -220,14 +215,10 @@ ul.social_icons {
   .twitter,
   .facebook,
   .email {
-    width: 6rem;
-    height: 6rem;
     background-size: 6rem;
+    height: 6rem;
     padding-right: 3rem;
+    width: 6rem;
   }
-
-
-
-
-
+  
 }
