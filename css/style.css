@@ -12,8 +12,8 @@ body {
 .profile h1 {
   margin: 0;
   font-weight: 900;
-  font-size: 6rem;
-  padding: 1rem;
+  font-size: 2.5rem;
+  padding: .5rem;
   color: rgba(0, 0, 0, .6);
 }
 
@@ -21,6 +21,7 @@ body {
   background-color: rgba(255, 255, 255, .4);
   border: .5rem solid rgba(0, 0, 0, .6);
   border-radius: 2rem;
+  margin-bottom: 6.5rem;
 }
 
 .flex-center {
@@ -28,54 +29,121 @@ body {
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  height: 40rem;
+  height: 20rem;
 }
 
 .profile {
-  background-image: url(../images/background.jpg);
+  background-image: url(../images/background_mobile2.jpg);
   background-size: cover;
   background-position: center center;
   height: 100vh;
 }
 
 .social {
-  margin-top: 4rem;
+  margin: 0;
   display: flex;
-  flex-direction: row;
+  padding: 0;
+  justify-content: center;
 }
 
-.social {
+.social_icons {
+  display: flex;
   list-style: none;
+  flex-direction: row;
+  justify-content: space-around;
 }
 
-.linkedin {
-  display: inline-block;
-  background: url(../images/linkedin-bw.png) norepeat;
-  display: inline-block;
+ul.social_icons {
+  padding-left: 0;
+  padding-top: 40vh;
+}
+
+.linkedin,
+.twitter,
+.facebook,
+.email {
+  top: 80vh;
+  display: block;
+  padding-right: 2rem;
+  background-repeat: no-repeat;
+  background-size: 4rem;
+  background-position: center;
+  background-clip: border-box;
   overflow: hidden;
   text-indent: 110%;
   text-align: left;
-  height: 3rem;
-  width: 3rem;
+  width: 4rem;
+  height: 4rem;
 }
 
+.linkedin:hover, .linkedin:focus  {
+  background-image: url(../images/linkedin-bw.png);
 }
+
+.linkedin {
+  background-image: url(../images/linkedin-colored.png);
+}
+
+.twitter:hover, .twitter:focus {
+  background-image: url(../images/twitter-bw.png);
+}
+
 .twitter {
-
+  background-image: url(../images/twitter-colored.png);
 }
+
+.facebook:hover, .facebook:focus {
+  background-image: url(../images/facebook-bw.png);
+}
+
 .facebook {
-
+  background-image: url(../images/facebook-colored.png);
 }
+
+.email:hover, .email:focus {
+  background-image: url(../images/email-bw2.png);
+}
+
 .email {
-
+  background-image: url(../images/email-colored2.png);
 }
 
 
 
+@media screen and (min-width: 436px){
 
-
-@media screen and (min-width: 415px){
-  .profile h1 {
-
+  .profile {
+    background-image: url(../images/background5.jpg);
+    background-size: cover;
+    background-position: center center;
+    height: 100vh;
   }
+
+  .profile h1 {
+    font-size: 5vmax;
+    padding: 1rem;
+  }
+  .social {
+    display: inline-block;
+    position: absolute;
+  }
+
+  ul.social_icons {
+    padding-top: 30vh;
+  }
+
+  section.flex-center {
+    position: relative;
+  }
+
+  .name-box {
+    display: inline-block;
+    position: absolute;
+    left: 80vh;
+  }
+
+
+
+
+
 }
