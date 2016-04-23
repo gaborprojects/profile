@@ -76,6 +76,25 @@ ul.social_icons {
   text-align: left;
   width: 4rem;
   height: 4rem;
+
+}
+
+.linkedin:hover,
+.twitter:hover,
+.facebook:hover,
+.email:hover {
+  transition: all .5s ease;
+  animation: roll 1.5s infinite;
+  ;
+}
+
+@keyframes roll {
+  0% {
+    transform: rotate(0);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
 }
 
 .linkedin:hover, .linkedin:focus  {
@@ -113,7 +132,7 @@ ul.social_icons {
 @media screen and (min-width: 436px) {
 
  .profile {
-    background-image: url(../images/background5.jpg);
+    background-image: url(../images/background_tablet.jpg);
     background-size: cover;
     background-position: center center;
     height: 100vh;
@@ -139,8 +158,19 @@ ul.social_icons {
   .name-box {
     display: inline-block;
     position: absolute;
-    left: 80vh;
+    left: 20vh;
   }
+
+  .linkedin,
+  .twitter,
+  .facebook,
+  .email {
+    width: 6rem;
+    height: 6rem;
+    background-size: 6rem;
+  }
+
+
 
 @media screen and (min-width: 800px){
 
@@ -161,7 +191,7 @@ ul.social_icons {
   }
 
   ul.social_icons {
-    padding-top: 30vh;
+    padding-top: 20vh;
   }
 
   section.flex-center {
@@ -177,7 +207,17 @@ ul.social_icons {
 
   .wrapper {
     max-width: 80%;
-}
+  }
+
+  .linkedin,
+  .twitter,
+  .facebook,
+  .email {
+    width: 6rem;
+    height: 6rem;
+    background-size: 6rem;
+    padding-right: 3rem;
+  }
 
 
 
