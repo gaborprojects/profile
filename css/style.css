@@ -21,15 +21,16 @@ body {
   background-color: rgba(255, 255, 255, .4);
   border: .5rem solid rgba(0, 0, 0, .6);
   border-radius: 2rem;
-  margin-bottom: 6.5rem;
+
 }
 
 .flex-center {
   display: flex;
   justify-content: center;
   align-items: center;
-  flex-direction: column;
-  height: 20rem;
+  /*flex-direction: column;*/
+  height: 10rem;
+  padding-top: 30vh;
 }
 
 .profile {
@@ -55,7 +56,7 @@ body {
 
 ul.social_icons {
   padding-left: 0;
-  padding-top: 40vh;
+  padding-top: 20vh;
 }
 
 .linkedin,
