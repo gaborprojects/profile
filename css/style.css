@@ -202,7 +202,7 @@ ul.social_icons {
 
   .name-box {
     display: inline-block;
-    left: 80vh;
+    left: 60vh;
     position: absolute;
     white-space: nowrap
   }
@@ -220,5 +220,14 @@ ul.social_icons {
     padding-right: 3rem;
     width: 6rem;
   }
-  
+
+@media screen and (min-width: 1000px){
+  .name-box {
+    display: inline-block;
+    left: 80vh;
+    position: absolute;
+    white-space: nowrap
+  }
+
+
 }
