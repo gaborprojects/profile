@@ -221,7 +221,7 @@ ul.social_icons {
     width: 6rem;
   }
 
-@media screen and (min-width: 1000px){
+@media screen and (min-width: 1025px){
   .name-box {
     display: inline-block;
     left: 80vh;
