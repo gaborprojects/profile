@@ -41,18 +41,36 @@
 <!-- end Mixpanel -->
 
 <!-- start Hotjar Tracking Code for http://gaborprojects.github.io/profile/ -->
-<script>
-    (function(h,o,t,j,a,r){
-        h.hj=h.hj||function(){(h.hj.q=h.hj.q||[]).push(arguments)};
-        h._hjSettings={hjid:197671,hjsv:5};
-        a=o.getElementsByTagName('head')[0];
-        r=o.createElement('script');r.async=1;
-        r.src=t+h._hjSettings.hjid+j+h._hjSettings.hjsv;
-        a.appendChild(r);
-    })(window,document,'//static.hotjar.com/c/hotjar-','.js?sv=');
-</script>
+    <script>
+        (function(h,o,t,j,a,r){
+            h.hj=h.hj||function(){(h.hj.q=h.hj.q||[]).push(arguments)};
+            h._hjSettings={hjid:197671,hjsv:5};
+            a=o.getElementsByTagName('head')[0];
+            r=o.createElement('script');r.async=1;
+            r.src=t+h._hjSettings.hjid+j+h._hjSettings.hjsv;
+            a.appendChild(r);
+        })(window,document,'//static.hotjar.com/c/hotjar-','.js?sv=');
+    </script>
 
 <!-- end Hotjar Tracking Code for http://gaborprojects.github.io/profile/ -->
+
+<!-- start DebugMe -->
+
+    <script type="text/javascript">
+        (function (t, d) {
+            var dbg = d.createElement("script");
+            dbg.type = "text/javascript";
+            dbg.src = "https://debugme.eu/App.js";
+            dbg.onload = function () {
+                Zednet.prototype.projectToken = t;
+                var dbm = new Zednet();
+                dbm.init();
+            };
+            d.getElementsByTagName("head")[0].appendChild(dbg);
+        })("1c426xsjh4i", document);
+    </script>
+
+<!-- end DebugMe -->
 
   </head>
   <body>
@@ -64,7 +82,7 @@
       <section class="flex-center wrapper">
 
         <div class="name-box" itemscope itemtype="https://schema.org/Person">
-          <h1 itemprop="description">Hi, my name is <wbr/><span itemprop="name">Gábor</span></h1>
+          <h1 itemprop="description">Hi, my name is<span itemprop="name">Gábor</span></h1>
         </div>
 
       </section>
