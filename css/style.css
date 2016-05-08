@@ -71,7 +71,7 @@ ul.social_icons {
 
 .linkedin,
 .twitter,
-.facebook,
+.github,
 .email {
   background-clip: border-box;
   background-position: center;
@@ -89,7 +89,7 @@ ul.social_icons {
 
 .linkedin:hover,
 .twitter:hover,
-.facebook:hover,
+.github:hover,
 .email:hover {
   animation: roll 1.5s infinite;
   animation-iteration-count: 1;
@@ -121,12 +121,12 @@ ul.social_icons {
   background-image: url(../images/twitter-colored.png);
 }
 
-.facebook:hover, .facebook:focus {
-  background-image: url(../images/facebook-bw.png);
+.github:hover, .github:focus {
+  background-image: url(../images/github-bw.png);
 }
 
-.facebook {
-  background-image: url(../images/facebook-colored.png);
+.github {
+  background-image: url(../images/github-colored.png);
 }
 
 .email:hover, .email:focus {
@@ -171,7 +171,7 @@ ul.social_icons {
 
   .linkedin,
   .twitter,
-  .facebook,
+  .github,
   .email {
     background-size: 6rem;
     height: 6rem;
@@ -217,7 +217,7 @@ ul.social_icons {
 
   .linkedin,
   .twitter,
-  .facebook,
+  .github,
   .email {
     background-size: 6rem;
     height: 6rem;
